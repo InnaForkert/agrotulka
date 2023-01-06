@@ -21,6 +21,8 @@ export function HeroGallery() {
       showThumbs={false}
       showArrows={false}
       showStatus={false}
+      preventMovementUntilSwipeScrollTolerance={true}
+      swipeScrollTolerance={20}
     >
       {imgArray.map((el) => (
         <HeroGalleryImg src={el} alt="фото" />

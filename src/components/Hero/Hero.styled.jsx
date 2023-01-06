@@ -47,3 +47,10 @@ export const HeroSubheading = styled.p`
   font-size: 12px;
   font-weight: 700;
 `;
+
+export const HeroButton = styled.button`
+  position: absolute;
+  bottom: 90px;
+  left: 50%;
+  transform: translateX(-50%);
+`;

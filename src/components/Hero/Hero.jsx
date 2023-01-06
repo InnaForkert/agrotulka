@@ -1,4 +1,5 @@
 import {
+  HeroButton,
   HeroContainer,
   HeroHeading,
   HeroSubheading,
@@ -16,8 +17,9 @@ export function Hero() {
         українською
       </HeroText>
       <HeroHeading>Небесне Благословення</HeroHeading>
+      <HeroButton>Читати</HeroButton>
       <HeroSubheading>
-        Зо однойменною новелою Мосян Тунсю Ілюстратор: StaRember
+        За однойменною новелою Мосян Тунсю Ілюстратор: StaRember
       </HeroSubheading>
     </HeroContainer>
   );
