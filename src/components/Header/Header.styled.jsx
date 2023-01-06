@@ -23,6 +23,6 @@ export const HeaderHeading = styled.h1`
 
   color: white;
   font-size: 16px;
-  font-style: Roboto, sans-serif;
-  font-weight: 400;
+  font-family: Roboto, sans-serif;
+  font-style: italic;
 `;
