@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/agrotulka/static/css/main.a78a0059.css",
-    "main.js": "/agrotulka/static/js/main.6cc365f8.js",
-    "static/media/hero2.jpg": "/agrotulka/static/media/hero2.c37bf9ba888888829662.jpg",
-    "static/media/hero3.jpg": "/agrotulka/static/media/hero3.ee5fd1a3085ab69e66fc.jpg",
-    "static/media/hero.jpg": "/agrotulka/static/media/hero.912edb87ae87ba04b642.jpg",
-    "static/media/hero1.jpg": "/agrotulka/static/media/hero1.ca581173fdbeb07d8a74.jpg",
+    "main.css": "/agrotulka/static/css/main.e4124a0d.css",
+    "main.js": "/agrotulka/static/js/main.fffb3bf2.js",
+    "static/media/hero2.jpg": "/agrotulka/static/media/hero2.30b8c49efe274107149a.jpg",
+    "static/media/hero.jpg": "/agrotulka/static/media/hero.21634cbb195e76991314.jpg",
+    "static/media/hero3.jpg": "/agrotulka/static/media/hero3.6abd1f073d2d363ec72e.jpg",
+    "static/media/hero1.jpg": "/agrotulka/static/media/hero1.182228885b9982c5591b.jpg",
     "static/media/header.jpg": "/agrotulka/static/media/header.676b9314237e3a81c0cf.jpg",
     "index.html": "/agrotulka/index.html",
-    "main.a78a0059.css.map": "/agrotulka/static/css/main.a78a0059.css.map",
-    "main.6cc365f8.js.map": "/agrotulka/static/js/main.6cc365f8.js.map"
+    "main.e4124a0d.css.map": "/agrotulka/static/css/main.e4124a0d.css.map",
+    "main.fffb3bf2.js.map": "/agrotulka/static/js/main.fffb3bf2.js.map"
   },
   "entrypoints": [
-    "static/css/main.a78a0059.css",
-    "static/js/main.6cc365f8.js"
+    "static/css/main.e4124a0d.css",
+    "static/js/main.fffb3bf2.js"
   ]
 }
