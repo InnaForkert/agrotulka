@@ -1,17 +1,16 @@
 import {
   HeroContainer,
-  HeroGallery,
   HeroHeading,
   HeroSubheading,
   HeroText,
 } from "./Hero.styled";
 
-import heroImg from "../../img/hero.jpg";
+import { HeroGallery } from "../HeroGallery/HeroGallery";
 
 export function Hero() {
   return (
     <HeroContainer>
-      <HeroGallery src={heroImg} alt="hero" />
+      <HeroGallery />
       <HeroText>
         Переклад українською: Агро-тюлька Телеграм: Небесне Благословення
         українською

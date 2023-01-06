@@ -8,11 +8,6 @@ export const HeroContainer = styled.div`
   padding-top: 5px;
 `;
 
-export const HeroGallery = styled.img`
-  width: 100%;
-  display: block;
-`;
-
 export const HeroText = styled.p`
   position: absolute;
   top: 15px;
