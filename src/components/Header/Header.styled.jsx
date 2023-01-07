@@ -5,6 +5,7 @@ export const HeaderContainer = styled.div`
   max-width: 480px;
   padding-inline: 70px;
   background-color: #881616;
+  margin: 0 auto;
 `;
 
 export const HeaderImg = styled.img`
