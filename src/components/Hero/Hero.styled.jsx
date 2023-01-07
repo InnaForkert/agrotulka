@@ -13,7 +13,7 @@ export const HeroText = styled.p`
   position: absolute;
   top: 15px;
 
-  width: 180px;
+  width: 200px;
   text-align: center;
 
   font-size: 10px;
