@@ -17,7 +17,7 @@ export function Hero() {
         українською
       </HeroText>
       <HeroHeading>Небесне Благословення</HeroHeading>
-      <HeroButton>Читати</HeroButton>
+      <HeroButton>Читати маньхуа</HeroButton>
       <HeroSubheading>
         За однойменною новелою Мосян Тунсю Ілюстратор: StaRember
       </HeroSubheading>

@@ -18,7 +18,7 @@ export const HeaderHeading = styled.h1`
   bottom: 10px;
   left: 50%;
 
-  width: 250px;
+  /* width: 250px; */
   transform: translateX(-50%);
   text-align: center;
 
