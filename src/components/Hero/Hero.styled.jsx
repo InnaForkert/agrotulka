@@ -18,6 +18,7 @@ export const HeroText = styled.p`
 
   font-size: 10px;
   font-weight: 800;
+  filter: drop-shadow(0 0 1px white);
 `;
 
 export const HeroHeading = styled.h2`
@@ -47,6 +48,7 @@ export const HeroSubheading = styled.p`
   text-align: center;
   font-size: 12px;
   font-weight: 700;
+  filter: drop-shadow(0 0 1px white);
 `;
 
 export const HeroButton = styled.button`

@@ -37,6 +37,7 @@ export const ChapterName = styled.li`
   font-size: 14px;
   padding: 2px;
   border-bottom: 1px dashed black;
+  cursor: pointer;
 
   &:hover,
   &:focus {

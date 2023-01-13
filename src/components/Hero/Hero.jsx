@@ -8,7 +8,7 @@ import {
 
 import { HeroGallery } from "../HeroGallery/HeroGallery";
 
-export function Hero() {
+export function Hero({ click }) {
   return (
     <HeroContainer>
       <HeroGallery />
@@ -17,7 +17,7 @@ export function Hero() {
         українською
       </HeroText>
       <HeroHeading>Небесне Благословення</HeroHeading>
-      <HeroButton>Читати маньхуа</HeroButton>
+      <HeroButton onClick={click}>Читати маньхуа</HeroButton>
       <HeroSubheading>
         За однойменною новелою Мосян Тунсю Ілюстратор: StaRember
       </HeroSubheading>
