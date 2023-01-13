@@ -1,33 +1,28 @@
 {
   "files": {
     "main.css": "/agrotulka/static/css/main.cd4e9e65.css",
-    "main.js": "/agrotulka/static/js/main.20903ea7.js",
-    "static/media/1.png": "/agrotulka/static/media/1.e1a790bd7a6ad155a7c0.png",
-    "static/media/4.png": "/agrotulka/static/media/4.c44e5bea834df7fec19c.png",
-    "static/media/6.png": "/agrotulka/static/media/6.1e2cf3246456adf92dcb.png",
-    "static/media/2.png": "/agrotulka/static/media/2.1a8c627d22b0856f96ba.png",
-    "static/media/3.png": "/agrotulka/static/media/3.2421dfeff2df3c383ebc.png",
-    "static/media/5.png": "/agrotulka/static/media/5.5dd8f14913b191e38a46.png",
-    "static/media/10.png": "/agrotulka/static/media/10.5aacec63385e1fa8517a.png",
-    "static/media/8.png": "/agrotulka/static/media/8.25f040a3775156de23f6.png",
-    "static/media/7.png": "/agrotulka/static/media/7.2f79635ac97d13acf5e8.png",
-    "static/media/9.png": "/agrotulka/static/media/9.ca56467e907d14edcfe1.png",
-    "static/media/3.jpg": "/agrotulka/static/media/3.e04bb5c186de02e98fbe.jpg",
-    "static/media/2.jpg": "/agrotulka/static/media/2.e312a5ab71406ccd0841.jpg",
-    "static/media/4.jpg": "/agrotulka/static/media/4.5e61bfb18dd4dcd88f95.jpg",
-    "static/media/8.jpg": "/agrotulka/static/media/8.b84fbd8e2dc94558b80c.jpg",
-    "static/media/1.jpg": "/agrotulka/static/media/1.a89bfa778b6725a47e9c.jpg",
-    "static/media/hero2.jpg": "/agrotulka/static/media/hero2.30b8c49efe274107149a.jpg",
-    "static/media/hero.jpg": "/agrotulka/static/media/hero.21634cbb195e76991314.jpg",
-    "static/media/hero3.jpg": "/agrotulka/static/media/hero3.6abd1f073d2d363ec72e.jpg",
-    "static/media/hero1.jpg": "/agrotulka/static/media/hero1.182228885b9982c5591b.jpg",
-    "static/media/header.jpg": "/agrotulka/static/media/header.676b9314237e3a81c0cf.jpg",
+    "main.js": "/agrotulka/static/js/main.0f12cd3a.js",
+    "static/media/3.jpg": "/agrotulka/static/media/3.cd8e30b096d7af207aa6.jpg",
+    "static/media/1.jpg": "/agrotulka/static/media/1.c3d7bacc58f97fe6210f.jpg",
+    "static/media/2.jpg": "/agrotulka/static/media/2.00b805ba4bdb28f63266.jpg",
+    "static/media/4.jpg": "/agrotulka/static/media/4.60b9d28e4d7a9b6696cf.jpg",
+    "static/media/6.jpg": "/agrotulka/static/media/6.0647c802bc3e77b1d440.jpg",
+    "static/media/5.jpg": "/agrotulka/static/media/5.9f7ed0ed129ec0fede63.jpg",
+    "static/media/10.jpg": "/agrotulka/static/media/10.59c1ab9250156822c156.jpg",
+    "static/media/8.jpg": "/agrotulka/static/media/8.b9a69a1578ee6e9e6230.jpg",
+    "static/media/7.jpg": "/agrotulka/static/media/7.611a69e6f3f624c119dc.jpg",
+    "static/media/9.jpg": "/agrotulka/static/media/9.6c149bb0dda69a3de161.jpg",
+    "static/media/hero2.jpg": "/agrotulka/static/media/hero2.deb0e0399722fb858c0b.jpg",
+    "static/media/hero.jpg": "/agrotulka/static/media/hero.ec7ef196b81efed5b428.jpg",
+    "static/media/hero3.jpg": "/agrotulka/static/media/hero3.aa7bca0396b39d6c9f37.jpg",
+    "static/media/hero1.jpg": "/agrotulka/static/media/hero1.c7e1326971fcae2b9c35.jpg",
+    "static/media/header.jpg": "/agrotulka/static/media/header.7fb8648264817722f946.jpg",
     "index.html": "/agrotulka/index.html",
     "main.cd4e9e65.css.map": "/agrotulka/static/css/main.cd4e9e65.css.map",
-    "main.20903ea7.js.map": "/agrotulka/static/js/main.20903ea7.js.map"
+    "main.0f12cd3a.js.map": "/agrotulka/static/js/main.0f12cd3a.js.map"
   },
   "entrypoints": [
     "static/css/main.cd4e9e65.css",
-    "static/js/main.20903ea7.js"
+    "static/js/main.0f12cd3a.js"
   ]
 }
