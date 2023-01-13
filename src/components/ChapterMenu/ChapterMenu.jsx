@@ -6,11 +6,13 @@ import {
   ShowList,
   ChapterName,
 } from "./ChapterMenu.styled";
+import { chapters } from "../../utils/chapters";
+import { nanoid } from "nanoid";
 
-const chapterArray = ["Перша глава", "Друга глава", "Третя глава"];
-
-export function ChapterMenu() {
+export function ChapterMenu({ changeChapter }) {
   const [showList, setShowList] = useState(false);
+
+  const chapterNames = Object.keys(chapters);
 
   return (
     <MenuContainer>
@@ -23,8 +25,10 @@ export function ChapterMenu() {
       />
       {showList && (
         <ChapterList>
-          {chapterArray.map((el) => (
-            <ChapterName>{el}</ChapterName>
+          {chapterNames.map((el) => (
+            <ChapterName key={nanoid()} onClick={(e) => changeChapter(e)}>
+              {el}
+            </ChapterName>
           ))}
         </ChapterList>
       )}

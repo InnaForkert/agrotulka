@@ -1,3 +1,4 @@
+import { nanoid } from "nanoid";
 import { tableArray } from "../../utils/tableArray";
 import { LeftTable, RightTable, TableGrid } from "./Table.styled";
 
@@ -7,10 +8,10 @@ export function Table() {
   return (
     <TableGrid>
       {tableArray.map((el, i) => (
-        <>
+        <span key={nanoid()}>
           <LeftTable>{left[i]}: </LeftTable>
           <RightTable>{el[left[i]]}</RightTable>
-        </>
+        </span>
       ))}
     </TableGrid>
   );
