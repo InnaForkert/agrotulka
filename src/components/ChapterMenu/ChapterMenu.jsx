@@ -14,6 +14,11 @@ export function ChapterMenu({ changeChapter }) {
 
   const chapterNames = Object.keys(chapters);
 
+  function handleClick(e) {
+    changeChapter(e);
+    setShowList((prev) => !prev);
+  }
+
   return (
     <MenuContainer>
       Список Глав
@@ -26,7 +31,7 @@ export function ChapterMenu({ changeChapter }) {
       {showList && (
         <ChapterList>
           {chapterNames.map((el) => (
-            <ChapterName key={nanoid()} onClick={(e) => changeChapter(e)}>
+            <ChapterName key={nanoid()} onClick={handleClick}>
               {el}
             </ChapterName>
           ))}

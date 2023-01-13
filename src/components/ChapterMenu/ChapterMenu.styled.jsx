@@ -20,6 +20,7 @@ export const ShowList = styled(AiFillCaretDown)`
   vertical-align: middle;
   margin-left: 5px;
   transition: transform 250ms;
+  cursor: pointer;
 
   &.rotated {
     transform: scale(-1);
