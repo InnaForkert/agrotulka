@@ -13,13 +13,15 @@ export function Hero({ click }) {
     <HeroContainer>
       <HeroGallery />
       <HeroText>
-        Переклад українською: Агро-тюлька Телеграм: Небесне Благословення
-        українською
+        Переклад українською: Агро-тюлька
+        <br />
+        Телеграм: Небесне Благословення українською
       </HeroText>
       <HeroHeading>Небесне Благословення</HeroHeading>
       <HeroButton onClick={click}>Читати маньхуа</HeroButton>
       <HeroSubheading>
-        За однойменною новелою Мосян Тунсю Ілюстратор: StaRember
+        За однойменною новелою Мосян Тунсю <br />
+        Ілюстратор: StaRember
       </HeroSubheading>
     </HeroContainer>
   );

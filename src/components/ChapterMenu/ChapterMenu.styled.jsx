@@ -14,6 +14,11 @@ export const MenuContainer = styled.div`
   border-radius: 15px;
   padding: 10px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+  }
 `;
 
 export const ShowList = styled(AiFillCaretDown)`
@@ -32,6 +37,10 @@ export const ChapterList = styled.ul`
   color: black;
   border-radius: 14px;
   padding: 8px;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 10px;
+  }
 `;
 
 export const ChapterName = styled.li`
@@ -44,5 +53,10 @@ export const ChapterName = styled.li`
   &:focus {
     box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
       rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
+    padding: 5px;
   }
 `;

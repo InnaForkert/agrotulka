@@ -7,6 +7,10 @@ export const HeroContainer = styled.div`
   padding-inline: 15px;
   padding-top: 5px;
   margin: 0 auto;
+
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+  }
 `;
 
 export const HeroText = styled.p`
@@ -19,6 +23,11 @@ export const HeroText = styled.p`
   font-size: 10px;
   font-weight: 800;
   filter: drop-shadow(0 0 1px white);
+
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+    width: 400px;
+  }
 `;
 
 export const HeroHeading = styled.h2`
@@ -29,12 +38,14 @@ export const HeroHeading = styled.h2`
 
   text-align: center;
 
-  width: 200px;
-
   color: #881616;
   -webkit-text-stroke: 0.4px white;
   font-weight: 900;
   font-size: 30px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 36px;
+  }
 `;
 
 export const HeroSubheading = styled.p`
@@ -42,13 +53,17 @@ export const HeroSubheading = styled.p`
   bottom: 15px;
   left: 50%;
   transform: translateX(-50%);
-
-  width: 250px;
+  /* 
+  width: 250px; */
 
   text-align: center;
   font-size: 12px;
   font-weight: 700;
   filter: drop-shadow(0 0 1px white);
+
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+  }
 `;
 
 export const HeroButton = styled.button`
@@ -77,6 +92,10 @@ export const HeroButton = styled.button`
   -webkit-user-select: none;
   touch-action: manipulation;
   will-change: transform, opacity;
+
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
+  }
 
   &:hover,
   &:focus {

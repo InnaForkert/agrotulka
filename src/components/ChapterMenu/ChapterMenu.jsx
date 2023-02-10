@@ -12,27 +12,24 @@ import { nanoid } from "nanoid";
 export function ChapterMenu({ changeChapter }) {
   const [showList, setShowList] = useState(false);
 
-  const chapterNames = Object.keys(chapters);
-
   function handleClick(e) {
     changeChapter(e);
     setShowList((prev) => !prev);
   }
 
   return (
-    <MenuContainer>
+    <MenuContainer
+      onClick={() => {
+        setShowList((prevState) => !prevState);
+      }}
+    >
       Список Глав
-      <ShowList
-        onClick={() => {
-          setShowList((prevState) => !prevState);
-        }}
-        className={`${showList ? "rotated" : ""}`}
-      />
+      <ShowList className={`${showList ? "rotated" : ""}`} />
       {showList && (
         <ChapterList>
-          {chapterNames.map((el) => (
-            <ChapterName key={nanoid()} onClick={handleClick}>
-              {el}
+          {chapters.map((el) => (
+            <ChapterName key={nanoid()} onClick={handleClick} data-id={el.id}>
+              {el.name}
             </ChapterName>
           ))}
         </ChapterList>

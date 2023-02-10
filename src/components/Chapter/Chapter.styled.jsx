@@ -10,4 +10,8 @@ export const ChapterContainer = styled.div`
   padding-inline: 15px;
   padding-top: 5px;
   margin: 0 auto;
+
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+  }
 `;

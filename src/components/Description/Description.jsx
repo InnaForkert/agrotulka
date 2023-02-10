@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Table } from "../Table/Table";
 import {
   DescriptionHeading,
@@ -11,6 +12,8 @@ import {
 } from "./Description.styled";
 
 export function Description() {
+  const [showDetails, setShowDetails] = useState(false);
+
   return (
     <DescriptionContainer>
       <DescriptionHeading>
@@ -26,7 +29,18 @@ export function Description() {
         Маньхва за мотивами однойменної новели. Немає такого божества, який би
         не знав про Се Ляня - відомої на всі три сфери мішені для насміхань. Се
         Лянь, Його Висотність наслідний принц
-        <DetailsButton> Детальніше...</DetailsButton>
+        {showDetails ? (
+          <>
+            <p>Деталі</p>
+            <DetailsButton onClick={() => setShowDetails(false)}>
+              Згорнути
+            </DetailsButton>
+          </>
+        ) : (
+          <DetailsButton onClick={() => setShowDetails(true)}>
+            Детальніше...
+          </DetailsButton>
+        )}
       </Paragraph>
       <Tags />
     </DescriptionContainer>

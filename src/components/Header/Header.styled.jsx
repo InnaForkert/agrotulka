@@ -6,6 +6,11 @@ export const HeaderContainer = styled.div`
   padding-inline: 70px;
   background-color: #881616;
   margin: 0 auto;
+
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+    height: 140px;
+  }
 `;
 
 export const HeaderImg = styled.img`
@@ -26,4 +31,8 @@ export const HeaderHeading = styled.h1`
   font-size: 16px;
   font-family: Roboto, sans-serif;
   font-style: italic;
+
+  @media screen and (min-width: 768px) {
+    font-size: 20px;
+  }
 `;

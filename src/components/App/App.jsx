@@ -5,10 +5,11 @@ import { ChapterMenu } from "../ChapterMenu/ChapterMenu";
 import Chapter from "../Chapter/Chapter";
 import { useRef, useState } from "react";
 import { chapters } from "../../utils/chapters";
+import NextChapter from "../NextChapter/NextChapter";
 
 function App() {
-  const [currentChapter, setCurrentChapter] = useState("Вступ");
-  const imgArr = chapters[currentChapter];
+  const [currentChapter, setCurrentChapter] = useState(0);
+  const imgArr = chapters[currentChapter].imgs;
   const chapRef = useRef(null);
 
   function scrollToStart() {
@@ -16,7 +17,12 @@ function App() {
   }
 
   function changeChapter(e) {
-    setCurrentChapter(e.target.textContent);
+    setCurrentChapter(e.target.dataset.id);
+    scrollToStart();
+  }
+
+  function nextChapter() {
+    setCurrentChapter((prev) => prev + 1);
     scrollToStart();
   }
 
@@ -28,6 +34,7 @@ function App() {
       <ChapterMenu changeChapter={(e) => changeChapter(e)} />
       <span ref={chapRef}></span>
       <Chapter arr={imgArr} />
+      <NextChapter handleClick={nextChapter} />
     </>
   );
 }
